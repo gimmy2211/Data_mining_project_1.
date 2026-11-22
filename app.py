@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "data" / "wholesale_customers.csv"
+DATA_PATH = BASE_DIR / "wholesale_customers.csv"
 FEATURE_NAMES = [
     "Fresh", "Milk", "Grocery", "Frozen", "Detergents_Paper", "Delicassen"
 ]
